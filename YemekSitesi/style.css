@@ -1,0 +1,262 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+header{
+    background-color: darkorange;
+    color: #f9f9f9;
+    padding: 20px 0px;
+    text-align: center;
+}
+
+header h1{
+    margin-bottom: 10px;
+}
+
+nav ul{
+    list-style: none;
+}
+
+nav ul li{
+    display: inline-block;
+    margin-right: 20px;
+}
+
+nav ul li a{
+    color: #f9f9f9;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+.search-container {
+    max-width: 800px;
+    margin: 30px auto 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.search-container input[type="text"] {
+    padding: 20px;
+    width: 500px;
+    border-radius: 30px 0 0 30px;
+    border: none;
+    outline: none;
+    font-size: 18px;
+    box-shadow: 0 2px 5px gray;
+}
+
+.search-container button {
+    padding: 20px 30px;
+    box-shadow: 0 2px 5px gray;
+    background-color: orange;
+    border: none;
+    outline: none;
+    border-radius: 0 30px 30px 0;
+    font-size: 18px;
+    color: #f9f9f9;
+    cursor: pointer;
+    transition: 300ms;
+}
+
+.search-container button:hover{
+    background-color: #ff3d00;
+}
+
+.hero{
+    background-image: url("hero-background.jpg");
+    background-size: cover;
+    background-position: center;
+    color: #f9f9f9;
+    text-align: center;
+    padding: 100px 0px;
+}
+
+.hero h1 {
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+
+.buttom {
+    display: inline-block;
+    background-color: #ff3d00;
+    color: #f9f9f9;
+    padding: 15px 30px;
+    text-decoration: none;
+    border-radius: 4px;
+    transition: 300px;
+}
+
+.order-buttom {
+    display: block;
+    margin: 0 auto;
+    margin-top: 10px ;
+    background-color: #ff5733;
+    color: #f9f9f9;
+    padding: 10px 20px ;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    transition: 300ms;
+}
+
+
+
+
+.button:hover, .order-buttom:hover {
+    background-color: #ff3d00;
+}
+
+
+
+
+
+
+.promotion h2
+.featured h2
+.menü h2 {
+    margin-bottom: 20px;
+}
+
+.menu-items {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.menu-item{
+   width: calc(33.333% - 20px);
+    background-color: #f9f9f9;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); 
+    padding: 20px;
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.menu-item:hover{
+    transition: 300ms all;
+    transform: scale(1.03);
+}
+
+.menu-item img{
+    width: 100%;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.menu-item h3,
+.menu-item p {
+    margin-bottom: 15px;
+}
+
+.menu-item span{
+    display: block;
+    font-weight: bold;
+    color: green;
+}
+
+del{
+    color: red;
+    opacity: 0.7;
+}
+
+.tag{
+    background-color: #ff5733;
+    color: #fff !important;
+    padding: 5px 10px;
+    border-radius: 5px;
+    position: absolute;
+    font-size: 12px;
+    top: -10px;
+    right: -5px;
+}
+
+.footer{
+    background-color: #e3651d;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0px;
+    width: 100%;
+}
+
+h2{
+    margin-bottom: 50px;
+    text-align: center;
+    padding: 20px;
+    margin: 30px;
+ 
+}
+
+.dark-mode {
+    background-color: #121212;
+    color: white;
+}
+
+
+
+
+
+/* style.css dosyasına ekle */
+#login-form {
+    text-align: center;
+    margin-top: 50px;
+}
+
+#login-form input {
+    padding: 10px;
+    margin: 10px;
+    width: 200px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+#login-form button {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+#login-form button:hover {
+    background-color: #45a049;
+}
+
+#welcome-message {
+    text-align: center;
+    margin-top: 50px;
+}
+
+#welcome-message button {
+    padding: 10px 20px;
+    background-color: #f44336;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+#welcome-message button:hover {
+    background-color: #e53935;
+}
+
+ 
